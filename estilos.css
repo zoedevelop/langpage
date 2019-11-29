@@ -53,6 +53,7 @@ a{
     width: 100%;
     height: 600px;
     background-image: url('lago.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: .9;
     background-position: center;
@@ -199,6 +200,7 @@ a{
     width: 45%;
     height: 300px;
     background-image: url('img1.jpg');
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: row;
@@ -216,6 +218,7 @@ a{
     width: 45%;
     height: 300px;
     background-image: url('img2.jpg');
+    background-repeat: no-repeat;
     background-origin: content-box;
     background-position: center;
     display: flex;
@@ -313,6 +316,7 @@ a{
     height: auto;
     padding: 90px;
     background-image: url('tree.jpg');
+    background-repeat: no-repeat;
     background-position: bottom ;
     background-attachment: fixed;
     display: flex;
@@ -355,7 +359,7 @@ a{
 }
 .contenedor_opciones{
     width: 50%;
-    margin: 0 auto;
+    margin: 25px auto;
     display: flex;
     flex-direction: column;
 }
@@ -369,6 +373,7 @@ a{
     display: flex;
     flex-direction: row;
     background-image: url('img1.jpg');
+    background-repeat: no-repeat;
     width: 40%;
     height: 300px;
     float: left;
@@ -390,11 +395,121 @@ a{
     padding: 10px;
 }
 .contenedor_opciones_box_text{
-    width: 50%;
-    float: left;
-}
-.contenedor_opciones_box_text{
     width: 40%;
     height: 300px;
-    margin: 45px;
+    padding-top: 20px;
+    margin: 50px;
+    
+    float: left;
 }
+
+.contenedor_opciones_box_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+    padding-bottom: 45px;
+}
+.contenedor_opciones_box_text a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-top: 100px;
+    border: 2px solid #02D267;
+    transition: 1s all ease;
+}
+.contenedor_opciones_box_text a:hover{
+    background-color: #02D267;
+    letter-spacing: 0.1em;
+}
+
+.contenedor_opciones_box_square{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+}
+.square{
+    border:15px solid #02D267;
+    border-left-style: hidden;
+    width: 50%;
+    float: right;
+    margin: 25px 0;
+    
+}
+.square h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40px 0;
+    padding-right: 30px;
+    /* white-space: nowrap; */
+}
+
+.formulario_contacto{
+    opacity: .8;
+    background-image: url('call.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid black;
+}
+
+.formulario_contacto h2{
+    text-transform: uppercase;
+    color: white;
+    margin: 50px;
+}
+.contenedor_formulario{
+    width: 40%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.text{
+    font-size: 16px;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    height: 100px;
+    float: left;
+    border:1px thick black;
+    
+
+}
+.text_area{
+    font-size: 16px;
+    padding: 0px 0 300px 25px ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border:1px thick black;
+    height: 400px;
+}
+.contenedor_formulario button{
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 20px 0;
+    background-color: orangered;
+    border:1px solid orangered;
+    width: 100%;
+}
+.contenedor_formulario button:hover{
+    background-color: #02D267;
+    border:1px solid #02D267;
+}
+input[type=text]:focus {
+    border: 3px solid #02D267;
+  }
