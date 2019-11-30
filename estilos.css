@@ -504,15 +504,20 @@ a{
     float: left;
     border:1px thick black;
 }
-.text_area{
-    font-size: 16px;
-    padding: 0px 0 300px 25px ;
+textarea{
+   font-size: 16px;
+    padding: 25px 40px 30px 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     width: 100%;
     border:1px thick black;
     height: 400px;
+    resize: none;
+  
 }
+textarea:focus {
+    border: 3px solid #02D267;
+  }
 .contenedor_formulario button{
     
     cursor: pointer;
