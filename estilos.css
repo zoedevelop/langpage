@@ -448,7 +448,7 @@ a{
 }
 
 .formulario_contacto{
-    opacity: .8;
+    /* opacity: .8; */
     background-image: url('call.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -502,8 +502,8 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding: 20px 0;
-    background-color: orangered;
-    border:1px solid orangered;
+    background-color: #FF4500;
+    border:1px solid #FF4500;
     width: 100%;
 }
 .contenedor_formulario button:hover{
