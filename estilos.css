@@ -505,6 +505,7 @@ a{
     border:1px thick black;
 }
 textarea{
+    text-align: justify;
    font-size: 16px;
     padding: 25px 40px 30px 40px;
     font-family: 'Montserrat', sans-serif;
