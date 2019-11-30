@@ -161,6 +161,8 @@ a{
     margin-bottom: 50px;
 }
 .contenedor_descripcion_acciones{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -170,24 +172,34 @@ a{
     margin-bottom: 70px;
 }
 .contenedor_descripcion_acciones a{
-    padding: 20px 35px;
+    text-align: center;
+    display: block;
+    width: 190px;
+    height: 60px;
+    padding-top: 20px;
     border: 2px solid #02D267 ;
    
 }
 .impar{
+    
     transition: 1s all ease;
     color: #02D267;
 }
 .impar:hover{
-    letter-spacing: .2em;
+    letter-spacing: 2px;
 }
 .par{
+    text-align: center;
+    display: block;
+    width: 190px;
+    height: 60px;
+    padding-top: 20px;
     transition: 1s all ease;
     background-color: #02D267;
     color: white;
 }
 .par:hover{
-    letter-spacing: .2em;
+    letter-spacing: 2px;
 }
 
 .contenedor_descripcion_imagenes{
@@ -339,17 +351,20 @@ a{
     margin-bottom: 30px;
 }
 .contendor_estadisticas_acciones a{
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 50px;
+    padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
-    padding: 15px 25px;
     border: 2px solid white;
-    transition: 2s all ease;
+    transition: 0.5s all ease;
 }
 .contendor_estadisticas_acciones a:hover{
-    transition: 2s all ease;
     background-color: orangered;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border: none;
 }
 .border_acciones{
@@ -412,15 +427,19 @@ a{
     padding-bottom: 45px;
 }
 .contenedor_opciones_box_text a{
+    text-align: center;
+    display: block;
+    width: 190px;
+    height: 60px;
+    padding-top: 20px;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 15px 25px;
-    margin-top: 100px;
+    font-weight: bolder;
     border: 2px solid #02D267;
-    transition: 1s all ease;
+    transition: 0.5s all ease;
 }
 .contenedor_opciones_box_text a:hover{
+    color: white;
     background-color: #02D267;
     letter-spacing: 0.1em;
 }
@@ -432,7 +451,7 @@ a{
 }
 .square{
     border:15px solid #02D267;
-    border-left-style: hidden;
+    border-left-style: none;
     width: 50%;
     float: right;
     margin: 25px 0;
@@ -458,7 +477,7 @@ a{
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    border:1px solid black;
+    border: 1px solid transparent;
 }
 
 .formulario_contacto h2{
@@ -484,8 +503,6 @@ a{
     height: 100px;
     float: left;
     border:1px thick black;
-    
-
 }
 .text_area{
     font-size: 16px;
@@ -497,6 +514,7 @@ a{
     height: 400px;
 }
 .contenedor_formulario button{
+    
     cursor: pointer;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -514,3 +532,13 @@ a{
 input[type=text]:focus {
     border: 3px solid #02D267;
   }
+.contenedor_footer{
+    width: 75%;
+    height: 55px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+}
